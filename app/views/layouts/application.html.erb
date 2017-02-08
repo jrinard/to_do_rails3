@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <div class="container">
     <title><%= yield(:title) %></title>
     <%= csrf_meta_tags %>
 
@@ -13,4 +14,5 @@
     <%= flash[:notice] %>
     <%= yield %>
   </body>
+  </div>
 </html>
